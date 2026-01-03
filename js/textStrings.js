@@ -208,7 +208,50 @@ var textStrings_DE = {
 	"misatrributed"      : "(falsch zugeschrieben)" ,
 };
 
-
+// niceHat: 모저 (모자) 적용. '멋진'은 문맥상 곱닥ᄒᆞᆫ(예쁜/고운)으로 의역.
+// outtaHere: '그래' → 게 (감탄사 [1] 참고).
+// getARoom: '방' → 구둘 (제주어에서 방을 뜻함). '잡아라'는 표준어 어간을 유지하되 명령형 -(으)라 적용.
+// notCoolAnymore: '힙하다'를 '멋지다'의 의미로 보아 곱닥ᄒᆞ지 아녀로 번역.
+// tvOnTv: '안의' → 소곱에 (속 [1] 참고).
+// cricky: '쪼마난' → 족은 (작다 [1] 참고), '귀뚜라미' → 공중이 (귀뚜라미 [2] 참고).
+// tooManyCrickets: '많다' → 하영 잇다 또는 하다.
+// normalPeep: '그냥' → 기냥 (그냥 [1] 참고), '사람' → 사름 (사람 [1] 참고).
+// normalPeeps: '좀' → ᄒᆞ꼼. '사람들' → 사름덜.
+// wowNothing: '없다' → 엇다 (없다 [1] 참고).
+// crazySquareAttacks: '미친' → 두린 (미치다 [1] 참고), '네모' → 네귀 (네모 [1]의 '네귀방장' 등에서 유추).
+// justMissed: '놓쳤네요' → 철려불엇수다 (놓치다 [1] '철리다' + 과거 '불' + 종결 '수다').
+// somethingInteresting: '재밌는 거' → ᄌᆞ미진 거. '있잖아요' → 잇주마씸 (상대 높임).
+// whoIsScreaming: '소리 지르는' → 소리치는 (소리치다 [1] 참고). '찍어봐요' → 찍어봅서 (권유형).
+// circleFearsSquares: '동그라미' → 방돌라기 (동그라미 [1] 참고), '무서워한다' → ᄆᆞ서와ᄒᆞᆫ다 (무섭다 [1] 참고).
+// whoScaresThem: '누구' → 누게 (누구 [1] 참고).
+// areTheyScared: '순간/때' → 때.
+// squaresSnubCircles: '무시한다' → 표준어 유지하되 어미 -(으)ㄴ다 적용.
+// everyoneHates: '미워한다' → 믜와ᄒᆞᆫ다 (미워하다 [1] '믜다' 활용).
+// almostEveryoneHates: '거의' → 거자 (거의 [1] 참고).
+// nerdsNow: '쟤넨' → 자이넨 (자기 [1] '지'와 결합된 지시대명사 변형). '무엇' → 무신거 (무엇 [2] 참고). '거야?' → 거고? (설명 의문문).
+// schockedPeep: '왜' → 무사 (왜 [1] 참고). '놀랐을까' → 노래어시코 (놀라다 [1] '노래다' + 추측 의문).
+// whatever: '상관없어' → 상관엇어 (상관없다 [1] 참고).
+// coolNoMore: '끝났어' → 끗낫어 (끝 [1] 참고). '못 들었어?' → 못 들언? (과거 의문).
+// beScared: '두려워하라' → ᄆᆞ서와ᄒᆞ라 (무섭다 [3] 참고). '분노하라' → 성내라 (성 [1] 참고).
+// manifesto:
+// '사이좋은' → ᄉᆞ이좋은 (사이좋다 [1] 참고).
+// '누가' → 누게가. '보겠어' → 보크라 (추측).
+// '지겨워' → 실퍼 (싫어하다/지겹다의 의미로 '실프다' 사용, 싫어하다 참조).
+// '폭력적인' → 거실은 (거실다 [2] 사납다 참고).
+// '모든' → 모돈 (모두 [3] 참고). '이야기' → 이왁. '필요하지' → 이서사 ᄒᆞ주. '그러니까' → 게난 (그러니까 [2] 참고).
+// '원하는' → 원ᄒᆞ는. '보여줘' → 보여도라.
+// warning: '폭력' → 싸움. '무례한' → 버릇엇은. '대량 살상' → 사름 하영 죽이는 거. '시청에 주의' → 보는데 조심ᄒᆞ십서.
+// chyronNothing: '어머' → 메께라 (감탄사). '없잖아?' → 엇주게 (없다 [1] + 강조 '주게').
+// createdBy: '제작' 유지.
+// lastButNotLeast: '가장' → 제일 (아주 [5] 참고). '중요한' → 중ᄒᆞᆫ (중요하다 [1] 참고). '당신' → 이녁.
+// thankYouForPlaying: '해주셔서' → 헤줜. '감사합니다' → 고맙수다.
+// otherWorkButton: '다른' → ᄄᆞᆫ (다르다 [2] 참고). '보러 가기' → 보레 가기.
+// replayButton: '난장판' → 와장판 (난장판 [1] 참고). '다시' → ᄄᆞ시 (다시 [1] 참고).
+// logoWBWWB: '나누세요' → ᄂᆞ누십서.
+// endOfPrototype: '여기까지입니다' → 이디ᄁᆞ지우다 (이디: 여기).
+// WBWWB: '대로' → 냥 (자기냥으로 [8] 참고). '된다' → 뒈여 (되다 [1] 참고).
+// WSOTATOTSU: '만들다' → 멩글다 (만들다 [2] 참고).
+// misatrributed: '실제로' → ᄎᆞᆷ말로 (말로 [1] 참고). '한 말' → ᄀᆞᆯ은 말.
 // Korean translation. Translated by:
 //
 // - Hyeon Kim <https://hyeon.me>
@@ -218,49 +261,53 @@ var textStrings_DE = {
 // These are 10 Hangul vowels: ㅏ ㅓ ㅐ ㅔ ㅣ ㅗ ㅜ ㅞ ㅚ ㅢ
 // These are 10 Hangul letters: 우리는된다목격우리가
 // Don't edit below if you cannot see any of these characters.
+// Jeju translation. Translated by:
+//
+// - Jinyoon <https://github.com/newhajinyoon>
+//
 var textStrings_KR = {
 	// Act 1
-	"niceHat"              : "우훗 멋진 모자",
-	"outtaHere"            : "그래 잘 가라",
-	"getARoom"             : "아주 방을 잡아라",
-	"notCoolAnymore"       : "모자는 더 이상 힙하지 않아",
-	"tvOnTv"               : "TV 안의... TV!",
-	"cricky"               : "쪼마난 기뚜라미 <3",
-	"tooManyCrickets"      : "그래 귀뚜라미 많다",
-	"normalPeep"           : "그냥 평범한 사람",
-	"normalPeeps"          : "그냥 좀 평범한 사람들",
-	"wowNothing"           : "와와 아무것도 없다!",
+	"niceHat"              : "우훗 곱닥ᄒᆞᆫ 모저",
+	"outtaHere"            : "게 잘 가라",
+	"getARoom"             : "아주 구둘을 잡으라",
+	"notCoolAnymore"       : "모저는 더 이상 곱닥ᄒᆞ지 아녀",
+	"tvOnTv"               : "TV 소곱에... TV!",
+	"cricky"               : "족은 공중이 <3",
+	"tooManyCrickets"      : "게 공중이 하영 잇다",
+	"normalPeep"           : "기냥 평범ᄒᆞᆫ 사름",
+	"normalPeeps"          : "기냥 ᄒᆞ꼼 평범ᄒᆞᆫ 사름덜",
+	"wowNothing"           : "와와 아무것도 엇다!",
 
 	// Act 2
-	"crazySquareAttacks"   : "미친 네모의 습격",
-	"justMissed"           : "우우우우 놓쳤네요",
-	"somethingInteresting" : "(그거 말고 좀 *재밌는 거* 있잖아요...)",
-	"whoIsScreaming"       : "(그거 말고 소리 지르는 거 좀 찍어봐요)",
-	"circleFearsSquares"   : "동그라미는 네모를 무서워한다",
-	"whoScaresThem"        : "(*누구*를 무서워하는지도 찍어봐요)",
-	"areTheyScared"        : "(네모에게 겁에 질리는 *순간*을 찍어봐요)", // not used
-	"squaresSnubCircles"   : "네모는 동그라미를 무시한다",
-	"areTheySnubbed"       : "(네모가 동그라미들을 무시하는 *순간*을 찍어봐요)", // not used
-	"everyoneHates"        : "모두가 모두를 미워한다!!1!",
-	"almostEveryoneHates"  : "거의 모두가 모두를 미워한다...",
-	"squaresHateCircles"   : "네모는 동그라미를 미워한다",
-	"circlesHateSquares"   : "동그라미는 네모를 미워한다",
-	"areTheyYelling"       : "(저 사람들이 *소리 지를 때*를 찍어봐요)", // not used
-	"nerdsNow"             : "쟤넨 대체 뭐 하는 거야?",
-	"schockedPeep"         : "왜 이 사람은 놀랐을까?",
-	"whatever"             : "상관없어", // not used
+	"crazySquareAttacks"   : "두린 네귀의 습격",
+	"justMissed"           : "우우우우 철려불엇수다",
+	"somethingInteresting" : "(거 말고 ᄒᆞ꼼 *ᄌᆞ미진 거* 잇주마씸...)",
+	"whoIsScreaming"       : "(거 말고 소리치는 거 ᄒᆞ꼼 찍어봅서)",
+	"circleFearsSquares"   : "방돌라기는 네귀를 ᄆᆞ서와ᄒᆞᆫ다",
+	"whoScaresThem"        : "(*누게*를 ᄆᆞ서와ᄒᆞ는지도 찍어봅서)",
+	"areTheyScared"        : "(네귀안티 겁 먹은 *때*를 찍어봅서)", // not used
+	"squaresSnubCircles"   : "네귀는 방돌라기를 무시ᄒᆞᆫ다",
+	"areTheySnubbed"       : "(네귀가 방돌라기들을 무시ᄒᆞ는 *때*를 찍어봅서)", // not used
+	"everyoneHates"        : "모두가 모두를 믜와ᄒᆞᆫ다!!1!",
+	"almostEveryoneHates"  : "거자 모두가 모두를 믜와ᄒᆞᆫ다...",
+	"squaresHateCircles"   : "네귀는 방돌라기를 믜와ᄒᆞᆫ다",
+	"circlesHateSquares"   : "방돌라기는 네귀를 믜와ᄒᆞᆫ다",
+	"areTheyYelling"       : "(저 사름덜이 *소리칠 때*를 찍어봅서)", // not used
+	"nerdsNow"             : "자이넨 도대체 무신거 ᄒᆞ는 거고?",
+	"schockedPeep"         : "무사 이 사름은 노래어시코?",
+	"whatever"             : "상관엇어", // not used
 
 	// Act 3
 	"ellipsis"             : ". . .",
-	"coolNoMore"           : "모자 유행은 다 끝났어. 못 들었어?",
-	"beScared"             : "두려워하라! 분노하라!",
+	"coolNoMore"           : "모저 유행은 다 끗낫어. 못 들언?",
+	"beScared"             : "ᄆᆞ서와ᄒᆞ라! 성내라!",
 
 	// MANIFESTO
 	"manifesto" : [
-		"*사이좋은 사람들*이나 나오는 걸 누가 보겠어?",
-		"평화는 지겨워. 폭력적인 게 더 인기 있어.",
-		"모든 이야기에는 갈등이 필요하지. 그러니까...",
-		"대중이 원하는 걸 보여줘.",
+		"*ᄉᆞ이좋은 사름덜*이나 나오는 걸 누게가 보크라?",
+		"평화는 실퍼. 거실은 게 더 인기 이서.",
+		"모돈 이왁에는 싸움이 이서사 ᄒᆞ주. 게난...",
+		"사름덜이 원ᄒᆞ는 걸 보여도라.",
 	],
 
 	// -- Strings currently in graphics resources --
@@ -268,56 +315,56 @@ var textStrings_KR = {
 	// (bg_preload.png) Preload screen
 	"playingTime"        : "플레이 시간: 5분",
 	"warning"            :
-		"경고: 이 게임에는 폭력, 속물, 무례한\n" +
-		"행동, 그리고 대량 살상이 포함되어\n" +
-		"있습니다. 시청에 주의하시길 바랍니다.",
+		"경고: 이 게임에는 싸움, 속물, 버릇엇은\n" +
+		"행동, 그리고 사름 하영 죽이는 게 포함뒈여\n" +
+		"잇수다. 보는데 조심ᄒᆞᆸ서.",
 
 	// (cam-instructions.png) Camera Instructions
 	"pointAndClick"      : "조준 & 클릭", // not used
 
 	// (chyron3.png)
-	"chyronNothing"      : "어머, 아무것도 *없잖아*?", // not used
+	"chyronNothing"      : "메께라, 아무것도 *엇주게*?", // not used
 
 	// (credits0001.png)
 	"createdBy"          : "제작",
 	"NickyCase"          : "Nicky Case",
 
 	// (credits0002.png)
-	"manyThanks"         : "고마운 테스터분들:",
+	"manyThanks"         : "고마운 테스터분덜:",
 
 	// (credits000[3,4,5,6].png)
-	"patreonSupporters"  : "그리고 Patreon 서포터분들:",
+	"patreonSupporters"  : "그리고 Patreon 서포터분덜:",
 
 	// (credits0007.png)
-	"lastButNotLeast"    : "그리고 가장 중요한 당신에게,",
+	"lastButNotLeast"    : "그리고 제일 중ᄒᆞᆫ 이녁안티,",
 
 	// (credits0008.png)
-	"thankYouForPlaying" : "플레이해주셔서 감사합니다!",
+	"thankYouForPlaying" : "플레이헤줜 고맙수다!",
 
 	// (preload_play.png)
 	"playButton"         : "게임 시작", // not used
 
 	// (end_button.png) Post Credits
-	"otherWorkButton"    : "다른 작품 보러 가기", // not used
+	"otherWorkButton"    : "ᄄᆞᆫ 작품 보레 가기", // not used
 	"buyCoffeeButton"    : "커피 사주기", // not used
-	"replayButton"       : "난장판 다시 보기", // not used
+	"replayButton"       : "와장판 ᄄᆞ시 보기", // not used
 
 	// (logo.png) Post Credits
-	"logoWBWWB"          : "이 고통을 공유하세요:", // not used
+	"logoWBWWB"          : "이 고통을 ᄂᆞ눕서:", // not used
 
 	// (end_prototype.png)
-	"endOfPrototype"     : "프로토타입은 여기까지입니다.", // not used
+	"endOfPrototype"     : "프로토타입은 이디ᄁᆞ지우다.", // not used
 	"toBeContinued"      : "(다음에 계속!)", // not used
 
 	// (quote0002.png)
-	"WBWWB"              : "우리는 우리가 보는 대로 된다.",
-	"WSOTATOTSU"         : "우리가 도구를 만들듯이, 도구도 우리를 만든다.",
+	"WBWWB"              : "우린 우리가 보는 냥 뒈여.",
+	"WSOTATOTSU"         : "우리가 도구를 멩글듯이, 도구도 우리를 멩근다.",
 
 	// (quote0003.png)
 	"MarshallMcLuhan"    : "Marshall McLuhan",
 
 	// (quote0004.png)
-	"misatrributed"      : "(실제로 한 말은 아님)",
+	"misatrributed"      : "(ᄎᆞᆷ말로 ᄀᆞᆯ은 말은 아니)",
 };
 
 var textStrings = textStrings_KR;
